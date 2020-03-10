@@ -1,0 +1,18 @@
+2020-01-10 23:23:51,120 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 38,999 milliseconds ago.  The last packet sent successfully to the server was 19,202 milliseconds ago. Query: UPDATE `user_data` SET `lastLoginTime` = ? WHERE `userId` = ? Parameters: [2020-01-10 23:23:31.908, 32393]
+2020-01-10 23:23:51,607 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 57,043 milliseconds ago.  The last packet sent successfully to the server was 19,188 milliseconds ago. Query: UPDATE `user_data` SET `lastLoginTime` = ? WHERE `userId` = ? Parameters: [2020-01-10 23:23:32.413, 32393]
+2020-01-10 23:23:55,227 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 61,233 milliseconds ago.  The last packet sent successfully to the server was 19,203 milliseconds ago. Query: UPDATE `user_data` SET `lastLoginTime` = ? WHERE `userId` = ? Parameters: [2020-01-10 23:23:36.02, 32393]
+2020-01-10 23:23:55,290 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 61,301 milliseconds ago.  The last packet sent successfully to the server was 19,204 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32393]
+2020-01-10 23:27:04,666 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 73,058 milliseconds ago.  The last packet sent successfully to the server was 19,245 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32393]
+2020-01-10 23:29:10,446 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 250,988 milliseconds ago.  The last packet sent successfully to the server was 135,731 milliseconds ago. Query: UPDATE `user_data` SET `lastLoginTime` = ? WHERE `userId` = ? Parameters: [2020-01-10 23:26:54.711, 32393]

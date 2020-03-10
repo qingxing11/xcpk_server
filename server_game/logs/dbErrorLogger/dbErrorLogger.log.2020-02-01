@@ -1,0 +1,1 @@
+2020-02-01 17:52:29,705 ERROR - java.sql.SQLException: Data truncation: Incorrect datetime value: '1580550749615' for column 'vipTime' at row 120 Query: UPDATE `user_data` SET  `vipLv`=?,vipTime =?  WHERE `userId`=? Parameters: [1, 1580550749615, 32505]

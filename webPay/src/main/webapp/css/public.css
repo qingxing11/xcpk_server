@@ -1,0 +1,137 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+body {
+	font-family: "苹方", 'Arial', 'san-serif';
+	color: #1a1a1a;
+	font-size: 0.24rem;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a,
+img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*head_line*/
+
+.head_line {
+	background: #1a1920;
+	width: 96%;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	padding: 0.15rem 2%;
+	vertical-align: middle;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+
+/*back_left*/
+.back_left a{
+	font-size: .28rem;
+    color: #fff;
+   
+}
+.back_left {
+	float: left;
+	vertical-align: middle;
+	height: 0.58rem;
+	line-height: 0.58rem;
+}
+
+.back_left img {
+	width: 0.28rem;
+	height: 0.46rem;
+	vertical-align: middle;
+	padding-right:.06rem
+}
+
+/*.back_left font {
+	color: #fff;
+	vertical-align: middle;
+	padding-left:0.05rem;
+}*/
+
+.head_line_p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 50%;
+	font-size: 0.3rem;
+	position: absolute;
+	margin-left: -25%;
+	left: 50%;
+	color: #fff;
+}
+
+
+/*more_right*/
+
+
+
+.more_right{
+	float: right;
+	padding-top: .23rem;
+	padding-right: .1rem;
+}
+.more_yuan{
+	background: url(../images/genduo.png);
+	background-size: .44rem .11rem;
+	width: .44rem;
+	height:.11rem;
+	display: block;
+}
+
+
+
+
+
+
+
+/*index_main*/
+.index_main{
+	margin-top: 0.88rem;
+	width: 100%;
+	float: left;
+	margin-bottom: .2rem;
+	overflow-x: hidden;
+	}
+	
+
+.index_main1{
+	margin-top: 0.88rem;
+    width: 100%;
+    margin-top: .88rem;
+
+}
+
+.boty_hide{
+	display: none;
+}
+.xh_img{
+	width: .3rem;
+	height: .3rem;
+}

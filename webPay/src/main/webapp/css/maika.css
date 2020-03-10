@@ -1,0 +1,146 @@
+/*nav_3_index*/
+.index_main{
+	margin-bottom: 0;
+}
+.nav_3_index{
+	text-align: center;
+	width: 6rem;
+	height: 4.1rem;
+	margin: auto;
+	margin-top: .1rem;
+}
+.mk_cz{
+	height:.8rem;
+	width: 5.8rem;
+	margin: 0 auto;
+	padding-top:.2rem;
+}
+.mk_cz span{
+	font-size:.28rem;
+	color:#262626;
+	background: url(../images/weixin.png) no-repeat;
+	background-size: .61rem .55rem;
+	padding-left:.76rem;
+	line-height: .55rem;
+	height:.55rem;
+	display: inline-block;
+	float: left;
+}
+.mk_cz font{
+	font-size: .2rem;
+	color:#fff;
+	background: url(../images/jin.png) no-repeat;
+	background-size: .88rem .31rem;
+	width:.88rem;
+	padding-left:.04rem;
+	margin-top: .1rem;
+	height:.43rem;
+	display: inline-block;
+	float: left;
+}
+.input_block label{
+	font-size:.28rem;
+	line-height: 1.10rem;
+	float: left;
+	width: 2rem;
+	text-align: right;
+}
+.input_block {  
+	   height: .71rem;
+}
+.input_block input{  
+    width: 2rem;
+    height: 1.10rem;     
+    border:none;     
+    font-size: .2rem;  
+    float: right;  
+    color: #898686;
+}  
+.input_block span{ 
+	height: 1.10rem; 
+	line-height: 1.1rem;
+	color: #898686;
+	width: 1.6rem;        
+    font-size: .2rem;
+    display: block;     
+    float: right;  
+}  
+.input_block input:focus {    
+    outline: none;    
+}
+.cz_ji{
+	float: left;
+	width: 5.6rem;
+	line-height: 1rem;
+	text-align: left;
+	padding-left: .26rem;
+	font-size:.28rem;
+	background: url(../images/more_dl_12.png) right center no-repeat;
+	background-size: .2rem .28rem;
+} 
+.syfk{
+	float: none;
+	width:4.3rem;
+	margin: 0 auto;
+}
+.syfk span{
+	display:block;
+	font-size:.6rem;
+	color: #118eea;
+	text-align:center;
+} 
+.dt_t{
+	padding-top: .1rem;
+	text-align: center;
+}
+.dj{
+	font-size: .38rem;
+	color:#6db60f;
+	font-weight: 700;
+	line-height: .7rem;
+	display: inline-block;
+}
+.dj_r{
+	background: url(../images/v1_03.png) right center no-repeat;
+	background-size:.3rem .24rem;
+	width:1.8rem;
+	text-align: left;
+	padding-left:.1rem;
+	height:.7rem;
+	line-height:.7rem;
+	display: inline-block;
+	font-size: .36rem;
+	color:#777779;
+}
+.sj_1{
+	padding-top:.25rem;
+	padding-bottom:.25rem;
+	font-size:.28rem;
+	line-height: .4rem;
+	color:#1a1920;
+	text-align: center;
+	width:5.6rem;
+	margin: 0 auto;
+}
+.sj_1 font{
+	color:#3496e1;
+}
+/*btn_line*/
+.btn_line{
+	width: 6rem;
+	margin: 0 auto;
+	
+}
+
+.btn_b{
+	height: 1rem;
+	line-height: 0.66rem;
+	border-radius: 0.08rem;
+	background: #118eea;
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 0.26rem;
+	cursor: pointer;
+} 

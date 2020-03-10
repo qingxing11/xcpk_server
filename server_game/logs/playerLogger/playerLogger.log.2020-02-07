@@ -1,0 +1,14 @@
+2020-02-07 23:57:32,529 INFO - 正在准备spring.....
+2020-02-07 23:57:46,010 INFO - 绑定端口:1985
+2020-02-07 23:57:46,472 INFO - 服务器启动完成,耗时:14025ms,端口:1985
+2020-02-07 23:57:47,726 INFO - 初始化万人场概率,单牌:30.0,对子:49.0,大牌:20.0,AAA:0.02,豹子:0.05,顺金:0.08
+2020-02-07 23:57:50,963 INFO - spring完成.....,appContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ce1d6d0: startup date [Fri Feb 07 23:57:36 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccddd20
+2020-02-07 23:57:51,084 INFO - 初始化通杀场概率,系统庄:16.0,人庄:7.0,方位:1.0,AAA:0.01,豹子:0.01,顺金:0.01
+2020-02-07 23:57:51,086 INFO - changeBanker---切换庄家为:PlayerSimpleData [userId=100000, nickName=系统女神, headIconUrl=null, coins=1000000000, pos=-1, roleId=0, vipLv=0, lv=0, crystals=0, sign=null, victoryNum=0, failureNum=0, betNum=0, isCheckPoker=false, gameState=0, killRoomPos=-1]
+2020-02-07 23:57:51,120 INFO - onHandlerKillroomBigWin---->list_lastDayWinRank:[RankVO [userId=35186, nickName=万宝路, score=159437476, rank=0], RankVO [userId=34633, nickName=34633, score=66510183, rank=1], RankVO [userId=32643, nickName=信誉饭团, score=51495329, rank=2], RankVO [userId=32686, nickName=老虎专属, score=37293118, rank=3], RankVO [userId=32665, nickName=相约在冬季, score=29563236, rank=4], RankVO [userId=33664, nickName=人品贝贝红, score=23742390, rank=5], RankVO [userId=32776, nickName=hshsh, score=23280879, rank=6], RankVO [userId=32767, nickName=雨辰, score=21648171, rank=7], RankVO [userId=32589, nickName=安徽彭颜祖, score=21049323, rank=8], RankVO [userId=32569, nickName=桃花运, score=17483899, rank=9], RankVO [userId=34947, nickName=随遇而安, score=12492834, rank=10], RankVO [userId=34978, nickName=并非良人, score=8945673, rank=11], RankVO [userId=32522, nickName=余生丶, score=8336699, rank=12], RankVO [userId=34965, nickName=豫G0000, score=7392650, rank=13], RankVO [userId=34884, nickName=辉辉传奇, score=5492774, rank=14], RankVO [userId=35388, nickName=35388, score=3603422, rank=15], RankVO [userId=32393, nickName=名字要六个字, score=2760000, rank=16], RankVO [userId=33405, nickName=中中中中中中, score=885833, rank=17], RankVO [userId=33389, nickName=等她, score=37600, rank=18], RankVO [userId=32398, nickName=dwfafa, score=18800, rank=19]]
+2020-02-07 23:57:51,120 INFO - updateBigWinPlayer:[RankVO [userId=35186, nickName=万宝路, score=159437476, rank=0], RankVO [userId=34633, nickName=34633, score=66510183, rank=1], RankVO [userId=32643, nickName=信誉饭团, score=51495329, rank=2], RankVO [userId=32686, nickName=老虎专属, score=37293118, rank=3]]
+2020-02-07 23:57:51,229 INFO - 万人场启动成功，game：com.wt.xcpk.classic.ClassicGame@650c9a94
+2020-02-07 23:57:51,229 INFO - initGame ----->changeToIdle
+2020-02-07 23:57:51,229 INFO - 设置状态到待机
+2020-02-07 23:57:51,229 INFO - clearRoomData ----> room.getAllPlayer.size:0
+2020-02-07 23:59:50,012 INFO - 彩票清理下注记录....

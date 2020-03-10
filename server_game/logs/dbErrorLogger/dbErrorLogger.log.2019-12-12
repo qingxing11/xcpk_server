@@ -1,0 +1,9 @@
+2019-12-12 21:19:54,440 ERROR - java.sql.SQLException: Wrong number of parameters: expected 2, was given 1 Query: SELECT * FROM `safeBox` WHERE `userId`=? OR otherId = ? Parameters: [32237]
+2019-12-12 21:19:58,038 ERROR - java.sql.SQLException: Wrong number of parameters: expected 2, was given 1 Query: SELECT * FROM `safeBox` WHERE `userId`=? OR otherId = ? Parameters: [32237]
+2019-12-12 21:22:12,707 ERROR - java.sql.SQLException: Wrong number of parameters: expected 2, was given 1 Query: SELECT * FROM `safeBox` WHERE `userId`=? OR otherId = ? Parameters: [32229]
+2019-12-12 21:23:45,496 ERROR - java.sql.SQLException: Wrong number of parameters: expected 2, was given 1 Query: SELECT * FROM `safeBox` WHERE `userId`=? OR otherId = ? Parameters: [32229]
+2019-12-12 21:24:03,314 ERROR - java.sql.SQLException: Wrong number of parameters: expected 2, was given 1 Query: SELECT * FROM `safeBox` WHERE `userId`=? OR otherId = ? Parameters: [32229]
+2019-12-12 22:39:42,654 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 169,213 milliseconds ago.  The last packet sent successfully to the server was 169,371 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32229]
+2019-12-12 22:39:42,667 ERROR - java.sql.SQLException: Could not retrieve transaction read-only status from server Query: UPDATE `user_data` SET `coins` = ?,`exp` = ?,`playerLevel` = ?,`victoryNum` = ?,`failureNum` = ? ,`crystals` = ?,`modifyNickName` = ?,`robPos` = ?,`addTime` = ? WHERE `userId` = ? Parameters: [[49959600, 0, 1, 32229, 0, 0, 0, 0, 0, 0]]

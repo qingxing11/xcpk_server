@@ -1,0 +1,13 @@
+2019-11-07 21:43:51,364 ERROR - java.sql.SQLException: Table 'xcpk_game.config_killRoom' doesn't exist Query: SELECT * FROM `config_killRoom` Parameters: []
+2019-11-07 21:44:18,764 ERROR - java.sql.SQLException: Table 'xcpk_game.config_FruitMechineWining' doesn't exist Query: SELECT * FROM `config_FruitMechineWining`  Parameters: []
+2019-11-07 21:44:18,764 ERROR - list_fruits.size()为0:0
+2019-11-07 21:45:09,756 ERROR - java.sql.SQLException: Table 'xcpk_game.config_FruitMechineWining' doesn't exist Query: SELECT * FROM `config_FruitMechineWining`  Parameters: []
+2019-11-07 21:45:09,756 ERROR - list_fruits.size()为0:0
+2019-11-07 21:46:00,765 ERROR - java.sql.SQLException: Table 'xcpk_game.config_FruitMechineWining' doesn't exist Query: SELECT * FROM `config_FruitMechineWining`  Parameters: []
+2019-11-07 21:46:00,765 ERROR - list_fruits.size()为0:0
+2019-11-07 21:46:51,767 ERROR - java.sql.SQLException: Table 'xcpk_game.config_FruitMechineWining' doesn't exist Query: SELECT * FROM `config_FruitMechineWining`  Parameters: []
+2019-11-07 21:46:51,767 ERROR - list_fruits.size()为0:0
+2019-11-07 22:16:28,739 ERROR - java.sql.SQLException: Table 'xcpk_game.config_FruitMechineWining' doesn't exist Query: SELECT * FROM `config_FruitMechineWining`  Parameters: []
+2019-11-07 22:16:28,739 ERROR - list_fruits.size()为0:0
+2019-11-07 23:08:27,161 ERROR - java.sql.SQLException: Table 'xcpk_game.config_FruitMechineWining' doesn't exist Query: SELECT * FROM `config_FruitMechineWining`  Parameters: []
+2019-11-07 23:08:27,161 ERROR - list_fruits.size()为0:0

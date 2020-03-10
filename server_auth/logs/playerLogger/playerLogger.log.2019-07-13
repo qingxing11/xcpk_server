@@ -1,0 +1,69 @@
+2019-07-13 11:19:19,790 INFO - 游戏服务器启动中...
+2019-07-13 11:19:21,100 INFO - 绑定端口:6666
+2019-07-13 11:19:21,278 INFO - 服务器启动完成,耗时:320ms,端口:6666
+2019-07-13 13:58:03,275 INFO - 游戏服务器启动中...
+2019-07-13 13:58:04,496 INFO - 绑定端口:6666
+2019-07-13 13:58:04,682 INFO - 服务器启动完成,耗时:280ms,端口:6666
+2019-07-13 14:05:03,464 INFO - 【进入游戏服验证token】验证来自游戏服的玩家登陆token失败！ERROR_没有申请过登陆
+2019-07-13 14:05:03,464 INFO - 发送消息:GServerValidationLoginResponse [userModel=null]
+2019-07-13 14:05:40,327 INFO - 游戏服务器启动中...
+2019-07-13 14:05:41,681 INFO - 绑定端口:6666
+2019-07-13 14:05:41,880 INFO - 服务器启动完成,耗时:288ms,端口:6666
+2019-07-13 14:06:15,451 INFO - 【进入游戏服验证token】验证来自游戏服的玩家登陆token失败！ERROR_没有申请过登陆
+2019-07-13 14:06:15,451 INFO - 发送消息:GServerValidationLoginResponse [userModel=null]
+2019-07-13 14:06:52,371 INFO - 【登录】玩家登陆，user：UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:06:15.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]
+2019-07-13 14:06:52,371 INFO - 【登录】数据库中密码:wt0001,客户端密码:wt0001
+2019-07-13 14:06:52,559 INFO - 发送消息:LoginResponse [tokenVO=TokenVO [uid=31189, pwd=1000:18454cbd8509c0b46c3c24bf34e19b4c07e07153b45bf706:5e73b8f2cc955b18eed9ab26e45cd82e63b8b4059cb99000], msgType=200, code=1000]
+2019-07-13 14:06:52,599 INFO - 【进入游戏服验证token】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:06:15.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]
+2019-07-13 14:06:52,599 INFO - 发送消息:GServerValidationLoginResponse [userModel=UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:06:15.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]]
+2019-07-13 14:30:21,116 INFO - 游戏服务器启动中...
+2019-07-13 14:30:22,240 INFO - 绑定端口:6666
+2019-07-13 14:30:22,412 INFO - 游戏服务器出现异常:java.net.BindException: Address already in use: bind
+2019-07-13 14:30:22,413 INFO - netty退出,拒绝新请求与链接...
+2019-07-13 14:30:30,520 INFO - 游戏服务器启动中...
+2019-07-13 14:30:31,727 INFO - 绑定端口:6666
+2019-07-13 14:30:31,938 INFO - 服务器启动完成,耗时:320ms,端口:6666
+2019-07-13 14:35:21,083 INFO - 游戏服务器启动中...
+2019-07-13 14:35:22,284 INFO - 绑定端口:6666
+2019-07-13 14:35:22,472 INFO - 服务器启动完成,耗时:277ms,端口:6666
+2019-07-13 14:36:14,018 INFO - 【登录】玩家登陆，user：UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:06:52.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]
+2019-07-13 14:36:14,018 INFO - 【登录】数据库中密码:wt0001,客户端密码:wt0001
+2019-07-13 14:36:14,224 INFO - 发送消息:LoginResponse [tokenVO=TokenVO [uid=31189, pwd=1000:cce32000f0087f5b1dcb026680cee63653bf97c4fe67ef71:bd573d85ca51072e272a5be8e30f77f2a39876d7a095b4de], msgType=200, code=1000]
+2019-07-13 14:36:14,337 INFO - 【进入游戏服验证token】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:06:52.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]
+2019-07-13 14:36:14,337 INFO - 发送消息:GServerValidationLoginResponse [userModel=UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:06:52.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]]
+2019-07-13 14:36:29,946 INFO - 【游戏服断线重连验证】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:06:52.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]
+2019-07-13 14:36:29,947 INFO - 发送消息:GClientReconnectValidationResponse [lastLogoutTime=1562997462000, msgType=335, code=1000]
+2019-07-13 14:45:43,165 INFO - 【登录】玩家登陆，user：UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:36:14.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]
+2019-07-13 14:45:43,166 INFO - 【登录】数据库中密码:wt0001,客户端密码:wt0001
+2019-07-13 14:45:43,196 INFO - 发送消息:LoginResponse [tokenVO=TokenVO [uid=31189, pwd=1000:5933befb4ff8d317b7fe6fe683c3d93d7c45a484dbd0bc00:7261f5ba84d6ea7a81b34486c7abb78eb77b4c49ecabf007], msgType=200, code=1000]
+2019-07-13 14:45:43,226 INFO - 【进入游戏服验证token】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:36:14.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]
+2019-07-13 14:45:43,226 INFO - 发送消息:GServerValidationLoginResponse [userModel=UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:36:14.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]]
+2019-07-13 14:45:52,469 INFO - 【游戏服断线重连验证】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:36:14.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 13:57:42.0]
+2019-07-13 14:45:52,470 INFO - 发送消息:GClientReconnectValidationResponse [lastLogoutTime=1562997462000, msgType=335, code=1000]
+2019-07-13 14:46:23,181 INFO - 【登录】玩家登陆，user：UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:45:43.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:45:52.0]
+2019-07-13 14:46:23,181 INFO - 【登录】数据库中密码:wt0001,客户端密码:wt0001
+2019-07-13 14:46:23,213 INFO - 发送消息:LoginResponse [tokenVO=TokenVO [uid=31189, pwd=1000:42f17017fa2e3883b38078b3037a92e4bfe29abb936902bc:d434a893c6f6e9d8d081dce1cff13887463f704379e58ada], msgType=200, code=1000]
+2019-07-13 14:46:23,246 INFO - 【进入游戏服验证token】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:45:43.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:45:52.0]
+2019-07-13 14:46:23,246 INFO - 发送消息:GServerValidationLoginResponse [userModel=UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:45:43.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:45:52.0]]
+2019-07-13 14:46:28,216 INFO - 【游戏服断线重连验证】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:45:43.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:45:52.0]
+2019-07-13 14:46:28,217 INFO - 发送消息:GClientReconnectValidationResponse [lastLogoutTime=1563000352000, msgType=335, code=1000]
+2019-07-13 14:56:54,489 INFO - 【游客快速登录】用户不存在,新注册：32364432
+2019-07-13 14:56:54,530 INFO - 【32364432】注册成功
+2019-07-13 14:56:54,530 INFO - 发送消息:GuestLoingAuthResponse [tokenVO=TokenVO [uid=31234, pwd=1000:6353c64532b1285a4956d18d7cd1178e74bcc4349da6daae:5eb802392157c66e1591101c5d2f319f32c25a7776b04a87], device_code=32364432]
+2019-07-13 14:56:54,647 INFO - 【进入游戏服验证token】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31234, account=32364432, nickName=31234, email=null, imei=null, lastLoginTime=null, password=null, regPhoneNum=null, regTime=null, unionId=null, antiAddiction=0, lastLogoutTime=null]
+2019-07-13 14:56:54,647 INFO - 发送消息:GServerValidationLoginResponse [userModel=UserInfoModel [userId=31234, account=32364432, nickName=31234, email=null, imei=null, lastLoginTime=null, password=null, regPhoneNum=null, regTime=null, unionId=null, antiAddiction=0, lastLogoutTime=null]]
+2019-07-13 14:57:07,079 INFO - 【游戏服断线重连验证】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31234, account=32364432, nickName=31234, email=null, imei=null, lastLoginTime=null, password=null, regPhoneNum=null, regTime=null, unionId=null, antiAddiction=0, lastLogoutTime=null]
+2019-07-13 14:57:07,079 INFO - 发送消息:GClientReconnectValidationResponse [lastLogoutTime=0, msgType=335, code=1000]
+2019-07-13 15:17:40,741 INFO - 游戏服务器启动中...
+2019-07-13 15:18:37,714 INFO - 游戏服务器启动中...
+2019-07-13 15:18:41,444 INFO - 绑定端口:6666
+2019-07-13 15:18:41,807 INFO - 服务器启动完成,耗时:584ms,端口:6666
+2019-07-13 15:22:28,841 INFO - 【登录】玩家登陆，user：UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:46:23.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:46:28.0]
+2019-07-13 15:22:28,842 INFO - 【登录】数据库中密码:wt0001,客户端密码:wt0001
+2019-07-13 15:22:29,402 INFO - 发送消息:LoginResponse [tokenVO=TokenVO [uid=31189, pwd=1000:c5e17a068e879b7839f47f327d0ec2f7a807e4b50bd1cad2:52579efea0bc002eaa9cbf143500ea8e88cd341a1d3d7f2d], msgType=200, code=1000]
+2019-07-13 15:22:29,651 INFO - 【进入游戏服验证token】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:46:23.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:46:28.0]
+2019-07-13 15:22:29,651 INFO - 发送消息:GServerValidationLoginResponse [userModel=UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:46:23.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:46:28.0]]
+2019-07-13 15:22:45,640 INFO - 【游戏服断线重连验证】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:46:23.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:46:28.0]
+2019-07-13 15:22:45,640 INFO - 发送消息:GClientReconnectValidationResponse [lastLogoutTime=1563000388000, msgType=335, code=1000]
+2019-07-13 15:23:00,094 INFO - 【游戏服断线重连验证】验证来自游戏服的玩家登陆token成功！UserInfoModel [userId=31189, account=wt0001, nickName=wt0001, email=, imei=a7656fccd40082e55b50e4057ba2dc6ca3429110, lastLoginTime=2019-07-13 14:46:23.0, password=wt0001, regPhoneNum=, regTime=2019-07-09 22:50:37.0, unionId=, antiAddiction=0, lastLogoutTime=2019-07-13 14:46:28.0]
+2019-07-13 15:23:00,095 INFO - 发送消息:GClientReconnectValidationResponse [lastLogoutTime=1563000388000, msgType=335, code=1000]

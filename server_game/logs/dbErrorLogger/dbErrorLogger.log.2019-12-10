@@ -1,0 +1,5 @@
+2019-12-10 21:39:28,914 ERROR - java.sql.SQLException: Unknown column 'userId' in 'where clause' Query: SELECT * FROM user_banned WHERE userId = ? Parameters: [123]
+2019-12-10 22:29:33,178 ERROR - java.sql.SQLException: Duplicate entry '1' for key 'PRIMARY' Query: INSERT INTO `user_banned`(`bannedId`) VALUES(?) Parameters: [1]
+2019-12-10 22:32:35,191 ERROR - java.sql.SQLException: Duplicate entry '2' for key 'PRIMARY' Query: INSERT INTO `user_banned`(`bannedId`) VALUES(?) Parameters: [2]
+2019-12-10 22:33:10,209 ERROR - java.sql.SQLException: Duplicate entry '3' for key 'PRIMARY' Query: INSERT INTO `user_banned`(`bannedId`) VALUES(?) Parameters: [3]
+2019-12-10 22:34:53,939 ERROR - java.sql.SQLException: Duplicate entry '4' for key 'PRIMARY' Query: INSERT INTO `user_banned`(`bannedId`) VALUES(?) Parameters: [4]

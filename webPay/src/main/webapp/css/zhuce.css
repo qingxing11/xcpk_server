@@ -1,0 +1,45 @@
+/*nav_3_index*/
+body{
+	background: url(../images/bg_zc.png) no-repeat;
+	background-size:cover;
+	}
+.nav_3_index{
+	text-align: center;
+	width: 6rem;
+	height: 4.7rem;
+	margin: auto;
+	margin-top: .1rem;
+}
+.zc_tips{
+	background: url(../images/tips_tu1.png) left center no-repeat;
+	background-size:.48rem .48rem;
+	text-align: left;
+	line-height: .6rem;
+	padding-left:.8rem;
+	color:#fff;
+	font-size: .32rem;
+	width:3.6rem;
+	margin: 0 auto;
+	margin-top:1.2rem;
+	}
+	.zc_wx{
+		margin-top: 2rem;
+		background: url(../images/tips_tu2.png) center top no-repeat;
+		background-size:1.45rem 1.6rem;
+		font-size: .38rem;
+		padding-top:1.9rem;
+		color: #fff;
+	}
+.zc_ts{
+	font-size:.38rem;
+	color:#fff;
+	margin-top:1.3rem;
+}
+.zc_bottom{
+	width: 100%;
+	font-size: .32rem;
+	text-align: center;
+	color: #118eea;
+	position: absolute;
+	bottom: .6rem;
+}

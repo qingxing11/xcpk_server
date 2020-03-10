@@ -1,0 +1,7 @@
+2020-01-09 23:51:24,806 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 152,342 milliseconds ago.  The last packet sent successfully to the server was 152,411 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32393]
+2020-01-09 23:51:24,812 ERROR - java.sql.SQLException: Could not retrieve transaction read-only status from server Query: UPDATE `user_data` SET `coins` = ?,`exp` = ?,`playerLevel` = ?,`victoryNum` = ?,`failureNum` = ? ,`crystals` = ?,`modifyNickName` = ?,`robPos` = ?,`addTime` = ? WHERE `userId` = ? Parameters: [[5000, 14629, 11, 13, 14, 125, 2, 8, 2, 32393]]
+2020-01-09 23:51:24,863 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 152,678 milliseconds ago.  The last packet sent successfully to the server was 152,760 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32393]

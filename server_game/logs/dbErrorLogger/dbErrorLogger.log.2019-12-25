@@ -1,0 +1,23 @@
+2019-12-19 00:15:02,830 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 19,256 milliseconds ago.  The last packet sent successfully to the server was 19,318 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32342]
+2019-12-19 00:15:02,831 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 19,318 milliseconds ago.  The last packet sent successfully to the server was 19,415 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32337]
+2019-12-19 00:15:35,932 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 21,539 milliseconds ago.  The last packet sent successfully to the server was 21,575 milliseconds ago. Query: SELECT * FROM user_banned WHERE bannedId = ? Parameters: [32342]
+2019-12-19 00:15:36,276 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 30,061 milliseconds ago.  The last packet sent successfully to the server was 30,094 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32342]
+2019-12-19 00:15:36,278 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 30,075 milliseconds ago.  The last packet sent successfully to the server was 30,115 milliseconds ago. Query: Select `day_task` from `user_task` Where `userId`=? Parameters: [32342]
+2019-12-19 00:15:36,278 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 53,673 milliseconds ago.  The last packet sent successfully to the server was 53,800 milliseconds ago. Query: Select `personSelf_task` from `user_task` Where `userId`=? Parameters: [32342]
+2019-12-19 00:15:36,279 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 53,902 milliseconds ago.  The last packet sent successfully to the server was 54,369 milliseconds ago. Query: Select `system_task` from `user_task` Where `userId`=? Parameters: [32342]
+2019-12-25 00:15:13,910 ERROR - java.sql.SQLException: Field 'id' doesn't have a default value Query: INSERT INTO `safeBox`(`userId`,`time`,`type`,`money`,`otherId`,`sign`,`pre`) VALUES (?,?,?,?,?,?,?) Parameters: [32389, 2019-12-25 00:15:13.876, 0, 10000, 32390, false, 0.05]
+2019-12-25 00:16:09,739 ERROR - java.sql.SQLException: Field 'id' doesn't have a default value Query: INSERT INTO `safeBox`(`userId`,`time`,`type`,`money`,`otherId`,`sign`,`pre`) VALUES (?,?,?,?,?,?,?) Parameters: [32389, 2019-12-25 00:16:09.711, 0, 10000, 32390, false, 0.05]

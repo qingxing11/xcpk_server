@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!-- 
+    environments:开发模式
+    work:工作模式
+    default="development"，id="development"，两个的属性值必须一致
+     -->   
+    <!--  <properties resource="db.properties"/> -->
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<!-- 配置数据库连接信息 -->
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.cj.jdbc.Driver" />
+				
+				<property name="url" value="jdbc:mysql://172.16.6.255:3306/zhuandan?useSSL=false" />
+				
+				<property name="username" value="guandan" />
+				<property name="password" value="" />
+		<!-- 		<property name="initialSize" value="200" />
+				<property name="maxActive" value="2000" /> -->
+			</dataSource>
+		</environment>
+	</environments>
+
+<!-- 在配置文件中 关联包下的 接口类-->
+     <mappers>
+          <mapper class="com.wt.dao.mapper.PayOrderMapper"/>
+     </mappers>
+
+
+</configuration>

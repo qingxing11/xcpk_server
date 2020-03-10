@@ -1,0 +1,6 @@
+2019-11-19 21:11:16,794 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 63,559 milliseconds ago.  The last packet sent successfully to the server was 64,183 milliseconds ago. Query: Select `personSelf_task` from `user_task` Where `userId`=? Parameters: [32125]
+2019-11-19 21:11:16,797 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 72,233 milliseconds ago.  The last packet sent successfully to the server was 77,064 milliseconds ago. Query: Select `system_task` from `user_task` Where `userId`=? Parameters: [32125]

@@ -1,0 +1,75 @@
+/*nav_3_index*/
+.nav_3_index{
+	text-align: center;
+	width: 6rem;
+	height: auto;
+	margin: auto;
+	margin-top: .1rem;
+}
+.input_block{
+	height:1rem;
+}
+.input_block label{
+	font-size:.28rem;
+	line-height: .9rem;
+	float: left;
+	width: 2rem;
+	text-align: left;
+}
+.input_block {  
+	    position: relative;
+}
+.input_block input{  
+    width: 3.4rem;
+    height: .9rem;     
+    border:none;     
+    font-size: .2rem;  
+    float: left;  
+    
+}  
+.input_block input:focus {    
+    outline: none;    
+}
+.cz_ji{
+	float: left;
+	width: 5.6rem;
+	line-height: 1rem;
+	text-align: left;
+	padding-left: .26rem;
+	font-size:.28rem;
+	background: url(../images/more_dl_12.png) right center no-repeat;
+	background-size: .2rem .28rem;
+} 
+.syfk{
+	float: none;
+	width:4.3rem;
+	margin: 0 auto;
+}
+.syfk span{
+	display:block;
+	font-size:.6rem;
+	color: #118eea;
+	padding-top:.04rem;
+	text-align:center;
+} 
+
+/*btn_line*/
+.btn_line{
+	width: 6rem;
+	margin: 0 auto;
+	margin-top:.6rem;
+	
+}
+
+.btn_b{
+	height: 1rem;
+	line-height: 0.66rem;
+	border-radius: 0.08rem;
+	background: #118eea;
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 0.26rem;
+	cursor: pointer;
+} 

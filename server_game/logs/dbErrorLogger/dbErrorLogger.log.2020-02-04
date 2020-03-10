@@ -1,0 +1,2 @@
+2020-02-04 23:27:17,971 ERROR - java.sql.SQLException: Table 'xcpk_game.game_wanren' doesn't exist Query: SELECT * FROM `game_wanren` Parameters: []
+2020-02-04 23:46:57,956 ERROR - java.sql.SQLException: Table 'xcpk_game.game_wanren' doesn't exist Query: SELECT * FROM `game_wanren` Parameters: []

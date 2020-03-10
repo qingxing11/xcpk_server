@@ -1,0 +1,6 @@
+2019-10-23 23:00:35,495 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 59,410 milliseconds ago.  The last packet sent successfully to the server was 21,539 milliseconds ago. Query: UPDATE `user_data` SET `coins` = coins + ? WHERE `userId` = ? Parameters: [0, 32147]
+2019-10-23 23:05:15,959 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 66,847 milliseconds ago.  The last packet sent successfully to the server was 28,005 milliseconds ago. Query: UPDATE `user_data` SET `coins` = coins + ? WHERE `userId` = ? Parameters: [0, 32147]

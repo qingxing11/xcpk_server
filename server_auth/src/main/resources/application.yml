@@ -1,0 +1,5 @@
+eureka:
+  client.serviceUrl.defaultZone: http://127.0.0.1:2015/eureka/
+  #netty启动端口
+  instance.nonSecurePort: 2015
+  

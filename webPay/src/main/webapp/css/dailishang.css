@@ -1,0 +1,56 @@
+/*nav_3_index*/
+.nav_3_index{
+	text-align: center;
+	width: 6.06rem;
+	margin: auto;
+}
+.head_dl{
+	width:2rem;
+	height:2rem;
+	border-radius: 100%;
+	margin:0 auto;
+	margin-top:.4rem;
+	
+}
+.dj{
+	font-size: .34rem;
+	color:#777779;
+	line-height: .7rem;
+}
+.dj_r{
+	background: url(../images/v1_03.png) right center no-repeat;
+	background-size:.3rem .24rem;
+	width:1.7rem;
+	text-align: left;
+	padding-left:.1rem;
+	height:.7rem;
+	line-height:.7rem;
+	display: inline-block;
+	font-size: .34rem;
+	color:#777779;
+}
+.dl_xx{
+	width: 4.6rem;
+	height: 1.3rem;
+	margin: 0 auto;
+	margin-top:.2rem;
+	background:url(../images/dl_line.png) center center no-repeat;
+	background-size:2px 130rem;
+	
+}
+.dl_ul {
+	margin-top: .4rem;
+}
+.dl_ul li{
+	background: url(../images/more_dl_12.png) right center no-repeat;
+	background-size: .2rem .28rem;
+	text-align: left;
+	color: #1a1920;
+	font-size:.26rem;
+	margin:0 .2rem;
+	height: .9rem;
+	line-height: .9rem;
+}
+.dl_a{
+	color: #1a1920;
+}

@@ -1,0 +1,3 @@
+2019-12-11 23:11:18,361 ERROR - java.sql.SQLException: Communications link failure
+
+The last packet successfully received from the server was 39,021 milliseconds ago.  The last packet sent successfully to the server was 39,071 milliseconds ago. Query: SELECT * FROM `user_friendsinfo` WHERE `userId`=? Parameters: [32237]

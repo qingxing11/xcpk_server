@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: server_centerEureka
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: AKwang
+Implementation-Vendor-Id: com.wt
+Build-Jdk: 1.8.0_201
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+

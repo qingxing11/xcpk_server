@@ -1,0 +1,44 @@
+spring:
+  http:
+    encoding.force: true  
+    encoding.charset: UTF-8 
+ #游戏服名称   
+  application.name : 王拓服
+  quartz:
+   properties:
+    org.quartz.threadPool.threadCount: 1
+
+eureka:
+  instance:
+  # 该配置指示eureka客户端需要向eureka服务器发送心跳的频率  (Spring Cloud默认 30s)
+    lease-renewal-interval-in-seconds: 20
+  # 该配置指示eureka服务器在接收到最后一个心跳之后等待的时间，然后才能从列表中删除此实例 (Spring Cloud默认 90s)
+    lease-expiration-duration-in-seconds: 30
+  
+   #游戏服地址
+    hostname:  47.100.229.107
+  #游戏服端口
+    nonSecurePort: 1985
+  
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    #注册中心地址,先已默认配置到外网
+    serviceUrl.defaultZone: http://47.100.229.107:2001/eureka/
+
+#spring端口
+server:
+  port: 2015
+  
+#账号服ip
+authIP: 47.100.229.107
+#账号服port
+authPort: 2000
+  
+  #注册服地址
+
+ali:
+ #appid = 2019063065766271
+ #privateKey = MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCpDWhPiSv4LJ1BAw3fLXL9efz6W+7WQhoUgo+FrOMOYU8xxaOBhjqLftQzmqfgkAaa7pfkrhxDr1kf1JYtbXaBmPLjs9aEPJAnvD6r9Byd/gJI3s4pR9ziDf1/+YAoEdLr1OqEbd5PCJj1qxkldzz4lrHFuwIRJ52StUV5etwEAX2ke7kB2l4alKqrsM8DbjgKHAw7S2VaZPGpPB39UkFv2gMIHGIfmDJJwVvZmf4yDELMypjz3uL8hAWQHnYEhc2Lglmb1s8qvnmKQWsmjShe9J/jVIxMTBf3nx4OiOSAqZtz6jTJ+ZDA5yxPqjwa4nhaOVEQihfYuyMWIRs/CxRHAgMBAAECggEAcCFyhP8JaS2+iLbL5rKwySy2/iEohHmH7v7Cz/njCVDGRM9BKtKr1ocjna8Bl1Qw7WdA3PAX01VlmlVZ33vx1Phsc1h/+2poe9LDBy9+I9WuEkOnH36JJm/9K3uE5A8ehkrN21U81dNwEdORdGZozMK32920+0f5nqwaDv/NG+IEbdnKiMQWSBta2mb/JKSQregO1sfntzdOupVY4Y9qciRw4SenTiXzdn9o7ISE86W/quBXd9ZP1duqJfqyLnpgQwIvWfrnnRd9hqirf6rOPzXx5kVmdia4bDTgpAmwdZ4mimVEdnjfHjihm8faYWSBeGH6jC7cfYJrXVm129YIUQKBgQDhEyR8u2uOjEyI9VSyfgc9aCuZeyy2ySYPGaUYTD8IzgUXL1jAfg76SKlxkA+FL3eKxnMrpfsZ+iIALtVnY3ECsVBz+8FFJmapXI1cbPHXtcf0Yo87d/ahmCvm09FZIPLvoPfk4FlwtyGnjhMUCAm0Lpi3g+pFkTUc9OOJtVP5owKBgQDAR7a1I98xSlvaxgCP1QlhoWemwhsiPB5IfYuTslJjS6grc5wKwMCyUZGokKxHhFZwhvW2cjENZ4+XSnpNDwog9HIrL8byAc3f5s8Zc/jSsUbbssMAvXQbIhbtoi/VKCbqt3IKxp/eUil+Rpfu1fi6M2d7TUXL3q4Zos57F19tDQKBgQCxn3HEHgSb0ozz6OiWlG8SPwtpbJO1DLlEYXCw5Ds6r5vE2FCqWNFpI77VKGOXMAafNk3dvHeV4JjEnDE+DnQ5M8XSQnQcJloOfkPxFOkm2waaDs4KmHnCvVyoJbGpLR+LjPUVYxgyo9Ojb7QOsuk1kTBkY26WyCmqWHjZTIihEQKBgQC/DQKPzYrRUQ8fu6mHQKhHp7ZzzV5kj9OPN59eK8sM+nmoYwDi9k8BX2cZVFa54NZ6jL7Mf34Z0ZKtQsVul8j6oahnHNvSTtSe6plQsxjDUH4VgfOcYqJg62hYydQ5OeIhShE4f88NehncbIw+NcEkUjs6GreFMEdRFaGQUNLyaQKBgEsuX4VXjGk20EnJw2s+5y45lW2SEBYE0WevNU/kp50m4+8rvtTT64gvTlOe4JSTR85DQBYDX8W4bXHqCnz4bzrlOR9Wa5wxT+BeK35El+4a+cpuxp+4rWmnfHS2kZ6QAmuTM3lV0SPS5VlWm0DMVB5FZse+QU4WF/OjFFcBuH0c
+ #publicKey = MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlkZDt4C4/FgW10sAt5qLCsnYEjNXv2INVXLHoNRjiVHR4N/X5ZjFTpbazkE4PK8GA4ZhBmVfT83GHNWunh07+LQzo9+L4mr2Dwh5N/zrkY0qQY3Pi/6/W2mvkm3Ba5tKgQJVGY1lxyR1AP7OJGLYhAJ0wB3uUcF09WRRF/VGzMkvMlqMyYtzeMCGukTrqUFsUts4uMh+yGs55jbCm5BGgcGtWxojl7N6egwkHKxVzCaBY4Jl+2DpeVnsJb93KWjmXAbQIMTALEyWZyCy1j2LDN2cPmsa06QySAWRkNctjLfE2OT7aL7f1saOuO/3llz4nUTOuQavm/sqsxjsBvVQ3QIDAQAB
+

@@ -1,0 +1,35 @@
+/*nav_3_index*/
+.nav_3_index{
+	text-align: center;
+	width: 6.06rem;
+	margin: auto;
+}
+
+/*btn_line*/
+.btn_line{
+	width: 100%;
+	margin-top:0.2rem;
+	float: left;
+}
+
+.btn_b{
+	height: 1rem;
+	line-height: 0.66rem;
+	border-radius: 0.08rem;
+	background: #00aaee;
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 0.26rem;
+	cursor: pointer;
+}
+.mr_hide{
+	display: none;
+}
+.magic_checkbox{
+	height:.3rem;
+	width: .3rem;
+	border-radius: 100%;
+	color:#118eea;
+}

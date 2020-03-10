@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="applicable-device" content="mobile" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<title>充值</title>
+		 
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<!-- common styles -->
+		<link rel="stylesheet" type="text/css" href="css/dialog.css" />
+		<!-- individual effect -->
+		<link rel="stylesheet" type="text/css" href="css/dialog-don.css" />
+		<script src="js/modernizr.custom.js"></script>
+		
+		<script type="text/javascript" src="js/phone.js"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/action-sheet.js"></script>
+		<style>
+		.dialog__content label {font-size:12px;cursor:pointer;height:.9rem;display: block; padding: 0 0.2rem}
+		.dialog__content label i {font-size:.45rem;font-style:normal;display:inline-block;width:.45rem;height:.45rem;text-align:center;line-height:.45rem;color:#fff;vertical-align:middle;margin:-2px 2px 1px 0px;border:#2489c5 1px solid;}
+		.dialog__content input[type="checkbox"],input[type="radio"] {display:none;}
+		.dialog__content input[type="radio"] + i {border-radius:.28rem;}
+		.dialog__content input[type="checkbox"]:checked + i,input[type="radio"]:checked + i {background:#2489c5;}
+		.dialog__content input[type="checkbox"]:disabled + i,input[type="radio"]:disabled + i {border-color:#ccc;}
+		.dialog__content input[type="checkbox"]:checked:disabled + i,input[type="radio"]:checked:disabled + i {background:#ccc;}
+		.wx{
+			font-size:.36rem;
+			color:#262626;
+			background: url(images/weixin.png) no-repeat;
+			background-size: .61rem .55rem;
+			padding-left:.76rem;
+			line-height: .55rem;
+			height:.55rem;
+			display: inline-block;
+			float: left;
+		}
+		.zfb{
+			font-size:.36rem;
+			color:#262626;
+			background: url(images/zfb.png) no-repeat;
+			background-size: .61rem .55rem;
+			padding-left:.76rem;
+			line-height: .55rem;
+			height:.55rem;
+			display: inline-block;
+			float: left;
+		}
+		.fk{
+			font-size:.34rem;
+			color:#262626;
+			padding-left:.76rem;
+			line-height: .55rem;
+			height:.55rem;
+			display: inline-block;
+			float: left;
+		}
+		.fk_d label{
+			cursor:pointer;height:.7rem;display: block;
+		}
+		.fk_d .fk{
+			font-weight: 600;
+			padding-left:0px;
+			width:4rem;
+			text-align: center;
+			display: inline-block;
+			float: left;
+		}
+		.zf_i{
+			float: left;
+			padding-top: .1rem;
+			width: 0.88rem;
+		}
+		.wx_an{
+			float: right;
+		}
+		
+		.btn_line{
+			width: 100%;
+			height:.9rem;
+			padding: 0 0.2rem;
+		}
+		
+		.btn_b{
+			height: 1rem;
+			line-height: 0.66rem;
+			border-radius: 0.08rem;
+			background: #00aaee;
+			width: 100%;
+			border: none;
+			outline: none;
+			color: #fff;
+			font-size: 0.36rem;
+			cursor: pointer;
+			display: block;
+			margin:0 auto;
+		}
+		</style>
+	</head>
+
+	<body onload="init()">
+			<div class="button-wrap"><button data-dialog="somedialog" class="trigger" id="payBtn">立即支付</button></div>
+			<div id="somedialog" class="dialog">
+					<div class="dialog__overlay"></div>
+					<div class="dialog__content">
+						<div style="width:100%;height:.7rem;line-height:.7rem;text-align: center;background:rgba(0,0,0,0.6);font-size: .37rem;color:#fff;">充值中心</div>
+						<div id="payType" style="width:100%;height:auto;padding-bottom:.2rem;margin: 0 auto;border-bottom:1px solid #ccc;padding-top:.5rem;">
+						<label><span class="wx">微信支付</span><img class="zf_i" src="images/tj.png"/><input class="wx_an" type="radio" name="abc" checked value="1"><i class="wx_an">✓</i></label>
+						<label><span class="zfb">支付宝支付</span><input class="wx_an" type="radio" name="abc" value="2"><i class="wx_an">✓</i></label>
+						</div>
+						<div id="payNum" class="fk_d" style="width:100%;height:auto;padding-bottom:.2rem;margin: 0 auto;padding-top:.2rem;">
+						<label><span class="fk">5钻 = 5元</span><input class="wx_an" type="radio" name="aaa" value="0" checked><i class="wx_an">✓</i></label>
+						<label><span class="fk">11钻 = 10元</span><input class="wx_an" type="radio" name="aaa" value="1"><i class="wx_an">✓</i></label>
+						<label><span class="fk">35钻 = 30元</span><input class="wx_an" type="radio" value="2" name="aaa"><i class="wx_an">✓</i></label>
+						<label><span class="fk">60钻 = 50元</span><input class="wx_an" type="radio" value="3" name="aaa"><i class="wx_an">✓</i></label>
+						<label><span class="fk">130钻 = 100元</span><input class="wx_an" type="radio" value="4" name="aaa"><i class="wx_an">✓</i></label>
+						<label><span class="fk">750钻 = 500元</span><input class="wx_an" type="radio" value="5" name="aaa"><i class="wx_an">✓</i></label>
+						</div>
+						
+						<div class="btn_line">
+							<input type="button" class="btn_b" id="add_top" value="支付">
+						</div>
+						<div><button class="action" data-dialog-close></button></div>
+					</div>
+			</div>
+<script src="js/classie.js"></script>
+		<script src="js/dialogFx.js"></script>
+		<script>
+			(function() {
+
+				var dlgtrigger = document.querySelector( '[data-dialog]' ),
+					somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
+					dlg = new DialogFx( somedialog );
+
+				dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+				
+				
+        		$("#payBtn").trigger("click");//模拟执行id=a的事件 
+    			
+				$("#add_top").click(function(){
+					var pType = $("#payType input[type=radio]:checked").val();
+					var pNum = $("#payNum input[type=radio]:checked").val();
+					//alert(pType+"   "+pNum);
+					
+					var payUrl = '';
+					if (pType == 1) {
+						payUrl = 'http://47.100.229.107:2015/getWxPayInfo?userId='+userId+'&orderId='+pNum;
+					
+					} else {
+						 payUrl = 'http://47.100.229.107:2015/getAliWebOrder?userId='+userId+'&orderId='+pNum;
+					}
+					
+					$.ajax({
+						type : 'get',
+						url : payUrl,
+						//url : 'http://127.0.0.1:1985/getWxPayInfo?',
+						//dataType: 'json',
+						success : function(data) {
+							 //alert(data);
+							window.location.href = data;
+						},
+						error : function(err) {
+							$.toast({
+								heading : '请求API失败:' + err.responseJSON.message,
+								icon : 'error',
+								loader : false
+							})
+						}
+					});
+				});
+			})();
+
+		</script>
+		
+		<script type="text/javascript">
+		var userId = GetQueryString("userId");
+	function GetQueryString(name) {
+		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+		var r = window.location.search.substr(1).match(reg);
+		if (r != null)
+			return unescape(r[2]);
+		return null;
+	}
+</script>
+	</body>
+
+</html>
